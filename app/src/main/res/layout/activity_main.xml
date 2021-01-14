@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login From"
+        android:textSize="46dp"
+        android:textStyle="bold"
+        android:textColor="#24206a"
+        android:textAlignment="center"
+        android:layout_marginTop="144dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emil"
+        android:background="@drawable/melengkong"
+        android:hint="Emil"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwrod"
+        android:background="@drawable/melengkong"
+        android:hint="Passwrod"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button"
+        app:cornerRadius="30dp"
+        app:strokeColor="#fff"
+        android:backgroundTint="#24206a"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Sumbit"
+        android:onClick="pindadActivity"
+        />
+
+</LinearLayout>
